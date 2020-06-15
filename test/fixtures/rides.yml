@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  destination: MyString
+  passenger_id: 1
+  driver_id: 1
+
+two:
+  location: MyString
+  destination: MyString
+  passenger_id: 1
+  driver_id: 1

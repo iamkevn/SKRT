@@ -1,0 +1,26 @@
+<h1>IMAGE</h1>
+
+<%= form_for(@passenger) do |f| %>
+    <p>
+     <%= f.label :name %><br>
+     <%= f.text_field :name %>
+    </p>
+    <p>
+     <%= f.label :phone_number %><br>
+     <%= f.number_field :phone_number %>
+    </p>
+    <p>
+     <%= f.label :email %><br>
+     <%= f.text_field :email %>
+    </p>
+    <p>
+     <%= f.label :password %><br>
+     <%= f.text_field :password %>
+    </p>
+    <p>
+     <%= f.submit %>
+   </p>
+ <% end %>
+
+ 
+

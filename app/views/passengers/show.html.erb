@@ -1,0 +1,17 @@
+<h1> IMAGE </h1>
+
+<div>Name: <%= @passenger.name %></div>
+<div>Phone Number: <%= @passenger.phone_number %></div>
+<div>Email: <%= @passenger.email %></div>
+<div>Password: <%= @passenger.password %></div>
+<br>
+<div>Logout</div>
+<%= button_to "Edit Account", edit_passenger_path, method: :get %>
+<%= button_to "Delete Account", new_passenger_path, method: :delete %>
+
+
+
+
+
+
+

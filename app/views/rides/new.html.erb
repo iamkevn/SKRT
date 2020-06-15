@@ -1,0 +1,15 @@
+<h1>Request a ride</h1>
+
+<%= form_for(@ride) do |f| %>
+    <p>
+     <%= f.label :location %><br>
+     <%= f.text_field :location %>
+    </p>
+    <p>
+     <%= f.label :destination %><br>
+     <%= f.text_field :destination %>
+    </p>
+    <p>
+     <%= f.submit %>
+   </p>
+ <% end %>
